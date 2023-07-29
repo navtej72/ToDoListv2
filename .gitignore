@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# npm package files
+*.module.js
+*.log
+*.env
+
+# Optional npm cache directory
+.npm
+
+# ESLint
+/.eslintcache
+
+# Ignore .env file containing environment variables
+.env
+
+# Ignore built files and directories
+/build
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor-specific files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore the node_modules in nested folders (if any)
+**/node_modules
+
+# Ignore the .env in nested folders (if any)
+**/.env
